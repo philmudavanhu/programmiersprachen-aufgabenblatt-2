@@ -16,3 +16,14 @@ target_link_libraries(tests
   ${GLFW_LIBRARIES})
 
 
+# Build vec2
+add_executable(vec2
+  vec2.cpp)
+target_link_libraries(vec2
+  ${GLFW_LIBRARIES})
+
+# Build mat2
+add_executable(mat2
+  mat2.cpp)
+target_link_libraries(mat2
+  ${GLFW_LIBRARIES})
